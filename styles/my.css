@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #000 0%, #fff 100%);
+}
+
+
+.nav-link {
+    color:rgb(151, 6, 139);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(204, 116, 8);
+}
+
+.navbar-brand img {
+    width: 55px;
+}
+
+.navbar-toogler {
+    background-color: rgb(25, 109, 73);
+}
+
+.sidebar {
+    background: linear-gradient(270deg, rgb(104, 65, 104) 0%, #fff 100%);
+    border-radius: 1%;
+}
+
+.card a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn.btn-primary {
+    color: #fff;
+}
+
+.slide-text {
+    background: linear-gradient(350deg, rgb(216, 201, 216) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 2%;
+    color-interpolation-filters: sRGB;
+    margin: auto auto;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.footer-text1 {
+    color: aliceblue;
+}
+
+.footer-text2 {
+    color: rgb(221, 238, 252);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background: linear-gradient(90deg, #000 0%, rgb(78, 56, 56) 100%);
+}
+
+.help {
+    color: #fff;
+}
